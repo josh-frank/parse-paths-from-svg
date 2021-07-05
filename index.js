@@ -19,6 +19,7 @@ exports.parse = svg => {
         cleanUpWhiteSpace = /[\n\s]+/g;
     return svg.match( matchPathTag )
         .map( pathTag => pathTag.match( matchDescriptor )
-        .join( "" )
-        .replace( cleanUpWhiteSpace, " " ) );
+            .join( "" )
+            .replace( cleanUpWhiteSpace, " " )
+        );
 }
