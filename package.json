@@ -1,9 +1,10 @@
 {
   "name": "parse-paths-from-svg",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple tool to parse path strings from an SVG file",
   "main": "index.js",
   "author": "Josh Frank",
+  "homepage": "https://github.com/josh-frank/parse-paths-from-svg",
   "license": "MIT",
   "scripts": {
     "cli": "node cli.js"
