@@ -1,0 +1,12 @@
+{
+  "name": "parse-paths-from-svg",
+  "version": "0.0.0",
+  "description": "A simple tool to parse path strings from an SVG file",
+  "main": "index.js",
+  "author": "Josh Frank",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
